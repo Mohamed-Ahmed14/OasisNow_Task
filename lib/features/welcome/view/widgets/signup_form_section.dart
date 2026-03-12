@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../../core/functions/validators.dart';
 import '../../../../shared/widgets/custom_text_form_field.dart';
 
 class SignupFormSection extends StatefulWidget {
@@ -66,10 +64,4 @@ class _SignupFormSectionState extends State<SignupFormSection> {
     ));
   }
 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-
-    super.dispose();
-  }
 }
