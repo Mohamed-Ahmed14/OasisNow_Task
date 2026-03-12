@@ -4,21 +4,16 @@ import 'features/welcome/view/screens/welcome_screen.dart';
 
 
 void main() {
-  runApp(const MyApp());
+
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runApp(const MaterialApp(
+    title: 'OasisNow',
+    debugShowCheckedModeBanner: false,
+    home:  WelcomeScreen(),
+  ));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'OasisNow',
-      debugShowCheckedModeBanner: false,
-      home: WelcomeScreen(),
-    );
-  }
-}
 
 

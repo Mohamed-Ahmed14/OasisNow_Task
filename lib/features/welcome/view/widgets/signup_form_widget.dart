@@ -26,7 +26,6 @@ class _SignupFormSectionState extends State<SignupFormWidget> {
   @override
   Widget build(BuildContext context) {
 
-
     return Form(
       key: widget.signupKey,
         child: Column(
