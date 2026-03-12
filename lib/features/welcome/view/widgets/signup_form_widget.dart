@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import '../../../../shared/widgets/custom_text_form_field.dart';
 
-class SignupFormSection extends StatefulWidget {
+class SignupFormWidget extends StatefulWidget {
   final GlobalKey<FormState> signupKey;
   final TextEditingController emailController;
   final TextEditingController passwordController;
   final TextEditingController rePasswordController;
-  const SignupFormSection({
+  const SignupFormWidget({
     required this.signupKey,
     required this.emailController,
     required this.passwordController,
@@ -15,10 +15,10 @@ class SignupFormSection extends StatefulWidget {
 
 
   @override
-  State<SignupFormSection> createState() => _SignupFormSectionState();
+  State<SignupFormWidget> createState() => _SignupFormSectionState();
 }
 
-class _SignupFormSectionState extends State<SignupFormSection> {
+class _SignupFormSectionState extends State<SignupFormWidget> {
 
   final FocusNode _emailFocusNode =  FocusNode();
   final FocusNode _passwordFocusNode =  FocusNode();

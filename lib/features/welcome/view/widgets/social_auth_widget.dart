@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../../shared/widgets/custom_elevated_button.dart';
 import '../../../../shared/widgets/custom_text.dart';
 
-class SocialAuthSection extends StatelessWidget {
-  const SocialAuthSection({super.key});
+class SocialAuthWidget extends StatelessWidget {
+  const SocialAuthWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
