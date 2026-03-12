@@ -5,8 +5,6 @@ import 'features/welcome/view/screens/welcome_screen.dart';
 
 void main() {
 
-  WidgetsFlutterBinding.ensureInitialized();
-
   runApp(const MaterialApp(
     title: 'OasisNow',
     debugShowCheckedModeBanner: false,
